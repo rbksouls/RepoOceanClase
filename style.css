@@ -1,0 +1,104 @@
+
+main{
+    background-image: url("https://www.digitalocean.com/_next/static/media/hero-background.769bb51c.svg");
+    height: 100vh;
+}
+header{
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    stroke:solid 2px  black;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    height: 70px;
+    
+}
+#isotipo{
+
+}
+#logo{
+
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    li{
+        padding: 20px;
+    }
+}
+.sesion1{
+    position: absolute;
+    right: 1px;
+    top: 10px;
+    background-color:rgb(0, 136, 255) ;
+    width: 115px;
+    padding: 10px;
+    border-radius: 15px;
+    color:white;
+}
+.sesion2{
+    position: absolute;
+    right: 140px;
+    top: 10px;
+    background-color:rgb(0, 136, 255) ;
+    width: 115px;
+    padding: 10px;
+    border-radius: 15px;
+    color:white;
+}
+.contenedor_principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contenedor_secundario{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+        margin-top: 50px;
+    }
+    h1{
+        padding:15px;
+        font-size:48px;
+        color: white;
+        font-weight: bold;
+    }
+    .texto{
+        text-align: center;
+        color: white;
+        font-size:18px ;
+    }
+  
+    .contenedor_botones{
+    padding:15px;
+    display: flex;
+    flex-direction: row;
+    .redirecciones{
+        font-weight: 400;
+        background-color:rgb(255, 255, 255) ;
+        width:250px;
+        padding: 5px;
+        margin: 20px;
+        border-radius: 15px;
+    }
+    
+}
+hr{
+    width: 800px;
+    margin: auto;
+    border: 0.3px dashed rgb(255, 254, 254);
+}
+.contenedor_imagenes{
+        display:flex ;
+        flex-direction: row;
+        justify-content: center;
+        border-radius: 50px;  
+        gap:20px;
+    }
+    img{
+        margin-top: 40px;
+        width:300px;
+        border-radius: 20px;
+    }
+
